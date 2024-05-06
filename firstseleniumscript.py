@@ -10,7 +10,7 @@ driver.maximize_window()
 
 driver.set_page_load_timeout(60)
 
-driver.set_script_timeout(10)
+driver.set_script_timeout(11)
 
 driver.get("https://freelance-learn-automation.vercel.app/login")
 
