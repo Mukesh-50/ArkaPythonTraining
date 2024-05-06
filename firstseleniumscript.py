@@ -24,7 +24,7 @@ username = driver.find_element(By.ID, "email1")
 
 username.send_keys("admin@email.com")
 
-driver.find_element(By.NAME, "password1").send_keys("admin@123")
+driver.find_element(By.NAME, "password1").send_keys("admin@1234")
 
 driver.find_element(By.CLASS_NAME, "submit-btn").click()
 
